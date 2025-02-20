@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mí</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Reproductores de audio ocultos -->
+    <audio id="click-sound" src="sounds/bit.wav"></audio>
+
+    <header>
+        <h1>Sobre Mí</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" onclick="document.getElementById('click-sound').play()" onmouseenter="document.getElementById('hover-sound').play()">Inicio</a></li>
+                <li><a href="experience.html" onclick="document.getElementById('click-sound').play()" onmouseenter="document.getElementById('hover-sound').play()">Experiencia</a></li>
+                <li><a href="skills.html" onclick="document.getElementById('click-sound').play()" onmouseenter="document.getElementById('hover-sound').play()">Habilidades</a></li>
+                <li><a href="studies.html" onclick="document.getElementById('click-sound').play()" onmouseenter="document.getElementById('hover-sound').play()">Estudios</a></li>
+                <li><a href="contact.html" onclick="document.getElementById('click-sound').play()" onmouseenter="document.getElementById('hover-sound').play()">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Hola, soy Alejandro Jiménez</h2>
+            <p>Soy un desarrollador y diseñador con experiencia en creación de aplicaciones web, APIs, bases de datos, videos, imágenes y audio.</p>
+            <p>He trabajado con tecnologías como React, Node.js, MongoDB y más. Mi enfoque siempre está en escribir código limpio y optimizado.</p>
+            <p>Me interesa profundamente el diseño de interfaces intuitivas y atractivas, buscando siempre un equilibrio entre funcionalidad y estética. </p>
+            <div class="gif-container">
+                <img src="about.gif" alt="Descripción del gif">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Alejandro Jiménez Muñoz</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
